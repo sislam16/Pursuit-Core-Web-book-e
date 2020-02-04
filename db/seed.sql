@@ -1,8 +1,9 @@
-DROP DATABASE IF EXISTS booke;
-CREATE DATABASE booke;
+-- DROP DATABASE IF EXISTS booke;
+-- CREATE DATABASE booke;
 
-\c booke
-
+-- \c booke
+DROP TABLE IF EXISTS bookmarks;
+DROP TABLE IF EXISTS users;
 CREATE TABLE users (
     id serial,
     email VARCHAR(50),
